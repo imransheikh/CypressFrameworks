@@ -1,0 +1,24 @@
+{
+  "chromeWebSecurity":false,
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 30000,
+  "reporter": "mochawesome",
+  "blockHosts": ["www.googletagmanager.com"],
+  "modifyObstructiveCode": true,
+  "whitelist  Hosts": ["*.cypress.io"],
+  
+  "env": {
+    "url": "https://app.stg.patientpop.com/sign-in",
+    "registerFormURL": "https://practice.stg.patientpop.com/registration?url=cpe-pro-stg.com&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHBpcmF0aW9uIjoxNjM5MTA5NjY3LjM3Nzk4OSwiY29udGV4dCI6eyJwYXRpZW50X2lkIjpudWxsLCJwYXRpZW50X3R5cGUiOm51bGwsImZvcm1faWQiOiJmYTNhNjA3OS0yNmZiLTRlZDgtODI4ZC03MzQzYTBkMTUwNGEiLCJhcHBvaW50bWVudF9pZCI6bnVsbH19.gimAt6hJGlWUg1sZRHrYXlsoFgHPyJO1b5IGXTTgjlo"
+  },
+  "testFiles": "**/*.feature",
+
+  "retries": {
+    
+    "runMode": 1
+  },
+  
+ 
+  
+  "projectId": "a5zbka"
+}

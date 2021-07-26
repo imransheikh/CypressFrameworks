@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify user submit new form features",
+    "line": 1,
+    "id": "verify-user-submit-new-form-features",
+    "tags": [],
+    "uri": "SubmitNewForm.feature",
+    "elements": [
+      {
+        "id": "verify-user-submit-new-form-features;submit-new-form-with-details",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Submit new form with details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on registration form screen",
+            "result": {
+              "status": "passed",
+              "duration": 9954000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter all the form details",
+            "result": {
+              "status": "passed",
+              "duration": 8656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify that form submitted successfully",
+            "result": {
+              "status": "passed",
+              "duration": 5295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Logout from application",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

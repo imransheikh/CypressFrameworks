@@ -1,0 +1,51 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify the SportsBiz links",
+    "line": 1,
+    "id": "verify-the-sportsbiz-links",
+    "tags": [],
+    "uri": "sportsbiz.feature",
+    "elements": [
+      {
+        "id": "verify-the-sportsbiz-links;sports-biz-test-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sports Biz test scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on home screen",
+            "result": {
+              "status": "failed",
+              "duration": 3452000000,
+              "error_message": "TypeError: ErrorConstructor is not a constructor\n    at Object.captureUserInvocationStack (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:158471:20)\n    at $Cy.cy.<computed> [as then] (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:150701:49)\n    at Context.runnable.fn (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:150960:21)\n    at callFn (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:105173:21)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:105160:7)\n    at https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:156911:28\n    at PassThroughHandlerContext.finallyHandler (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:7301:23)\n    at PassThroughHandlerContext.tryCatcher (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:10747:23)\n    at Promise._settlePromiseFromHandler (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:8682:31)\n    at Promise._settlePromise (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:8739:18)\n    at Promise._settlePromise0 (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:8784:10)\n    at Promise._settlePromises (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:8864:18)\n    at _drainQueueStep (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:5454:12)\n    at _drainQueue (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:5447:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://deepsport.dev.sportsbiz.com/__cypress/runner/cypress_runner.js:5463:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Click on Calender of Activities tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Logout from the application",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

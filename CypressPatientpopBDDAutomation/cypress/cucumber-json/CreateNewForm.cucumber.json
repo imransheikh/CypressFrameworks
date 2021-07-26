@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify the Create New Form features",
+    "line": 1,
+    "id": "verify-the-create-new-form-features",
+    "tags": [],
+    "uri": "CreateNewForm.feature",
+    "elements": [
+      {
+        "id": "verify-the-create-new-form-features;create-new-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create New Form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Login into Patientpop application",
+            "result": {
+              "status": "passed",
+              "duration": 13289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User is on form screen",
+            "result": {
+              "status": "passed",
+              "duration": 11744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Create the new form",
+            "result": {
+              "status": "passed",
+              "duration": 12931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Edit the form and publish",
+            "result": {
+              "status": "passed",
+              "duration": 15224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Logout from application",
+            "result": {
+              "status": "passed",
+              "duration": 5710000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

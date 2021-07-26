@@ -1,0 +1,20 @@
+{
+  "chromeWebSecurity":false,
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 30000,
+  "reporter": "mochawesome",
+  
+  "env": {
+    "url": "https://app.stg.patientpop.com/sign-in"
+  },
+
+
+  "retries": {
+    
+    "runMode": 1
+  },
+  
+ 
+  
+  "projectId": "a5zbka"
+}
